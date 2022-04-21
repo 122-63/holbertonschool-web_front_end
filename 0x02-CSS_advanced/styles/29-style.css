@@ -282,7 +282,7 @@ body {
     height: 0.2rem;
 }
 
-.nav > .nav-item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
@@ -329,4 +329,3 @@ ul.row {
 .footer-address {
     color: var(--text-color);
 }
-
