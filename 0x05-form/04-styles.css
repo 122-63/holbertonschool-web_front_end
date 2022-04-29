@@ -687,9 +687,9 @@
       padding: 0 0 .5rem;
   }
 
-  input[type="text"], input[typr="email"] textarea {
+  input[type="text"], input[type="email"], textarea {
     position: relative;
-    width: 100;
+    width: 100%;
     padding: 1.2rem;
     line-height: 1;
     border: .1rem solid var(--color-black);
