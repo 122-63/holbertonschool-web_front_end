@@ -464,7 +464,7 @@
     fill: var(--text-color);
   }
   
-  @media only screen and (min-width:767) {
+  @media  screen and (max-width: 767px) {
     :root {
       --footer-padding: 5rem 2rem 1rem;
     }
@@ -479,7 +479,6 @@
       padding-left: 2rem;
     }
   }
-
   
   /*** 3. SECTION ***/
   
@@ -686,14 +685,13 @@
       --text-color: var(--color-white);
       position: relative;
     }
-  }
-
-  .card-work .card-title {
-    opacity: 1;
-  }
-
-  .card-work .card-title a {
-    padding: 2rem 1rem 0 1rem;
+    .card-work .card-title {
+      opacity: 1;
+    }
+  
+    .card-work .card-title a {
+      padding: 2rem 1rem 0 1rem;
+    }  
   }
 
   /* Card SERVICES
